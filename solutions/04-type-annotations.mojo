@@ -13,9 +13,9 @@
 #
 
 fn main():
-    let name: String = 'MoJoe'
-    let age: Int = 20
-    let gpa: Float16 = 3.80
+    var name: String = 'MoJoe'
+    var age: Int = 20
+    var gpa: Float16 = 3.80
     print_student_info(name, age, gpa)
 
 

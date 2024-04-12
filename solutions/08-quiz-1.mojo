@@ -11,14 +11,14 @@ from testing import assert_equal, assert_not_equal
 
 fn main() raises:
     var result: Int
-    let start: Int = 0
+    alias start: Int = 0
 
     result = add_two(start)
     result = add_three(result)
 
     assert_equal(result, 5)
 
-    let msg: String = "You've completed Quiz 1!"
+    var msg: String = "You've completed Quiz 1!"
     print_msg(msg)
 
 

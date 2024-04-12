@@ -13,9 +13,9 @@
 #
 
 fn main():
-    let name: = 'MoJoe'
-    let age: = 20
-    let gpa: = 3.80
+    var name: = 'MoJoe'
+    var age: = 20
+    var gpa: = 3.80
     print_student_info(name, age, gpa)
 
 
