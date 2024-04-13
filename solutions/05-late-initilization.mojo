@@ -15,7 +15,7 @@
 from random import random_float64
 
 fn main():
-    let coin: String
+    var coin: String
     
     if random_float64() > 0.5:
         coin = 'Heads'

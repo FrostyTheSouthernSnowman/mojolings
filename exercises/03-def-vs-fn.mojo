@@ -16,7 +16,7 @@
 #
 
 def main():
-    let name = "Mojo"
+    var name = "Mojo"
     say_hi(name)
     say_hello(name)
 
@@ -27,5 +27,5 @@ fn say_hi(name):
 
 
 fn say_hello(name: String):
-    let greeting = 'Hello ' + name
+    var greeting = 'Hello ' + name
     print(greeting)

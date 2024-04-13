@@ -5,7 +5,7 @@
 #
 #   Mojo has two keywords for declaring variables:
 #     - `var` creates mutable variables
-#     - `let` creates immutable variables
+#     - `alias` creates immutable constants
 #
 #   As you'll see in future exercises, these declartions are
 #   required depending on the function you are using.
@@ -17,8 +17,9 @@
 #
 
 fn main():
-    let age = 20
-    let can_vote = False
+    alias age = 20
+    # age = 21 # <- this will error if uncommented
+    var can_vote = False # <- this variable can be changed, as shown later on
 
     if age >= 18:
-        can_vote = True
+        can_vote = True # <- this is allowed because `can_vote` is mutable

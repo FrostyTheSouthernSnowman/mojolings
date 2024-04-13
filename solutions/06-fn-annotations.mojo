@@ -16,13 +16,13 @@
 #
 
 fn main():
-    let x: Int = 5
-    let y: Int = 3
+    var x: Int = 5
+    var y: Int = 3
     
-    let summ = add_ints(x, y)
-    let diff = sub_ints(x, y)
+    var summ = add_ints(x, y)
+    var diff = sub_ints(x, y)
     
-    let prod = multiply_floats(3.14, 4.5)
+    var prod = multiply_floats(3.14, 4.5)
 
 
 fn add_ints(x: Int, y: Int) -> Int:

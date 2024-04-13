@@ -10,15 +10,15 @@ from testing import assert_equal, assert_not_equal
 
 
 fn main() raises:
-    let result
-    let start: number = 0
+    var result
+    alias start: number = 0
 
     result = add_two(start)
     result = add_three(result)
 
     assert_equal(result, 5)
 
-    let msg: String = "You've completed Quiz 1!"
+    alias msg: String = "You've completed Quiz 1!"
     print_msg(msg)
 
 
