@@ -4,7 +4,7 @@
 # Core Concept:
 #
 #   One final note on `fn` functions. If the body of the 
-#   function might raising an exception, we need to explicitly
+#   function might raise an exception, we need to explicitly
 #   label the function with the "raises" keyword (see the main
 #   function for an example).
 #

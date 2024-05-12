@@ -6,7 +6,7 @@
 #   We've seen function annations before in a previous exercise, so
 #   this one should be super easy!
 #
-#   Remember, when we `fn` functions, all arguments are return types
+#   Remember, when we `fn` functions, all arguments and return types
 #   need annotations. If no return type annotation is given, it defaults
 #   to `None`.
 #
