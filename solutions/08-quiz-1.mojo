@@ -16,14 +16,14 @@ fn main() raises:
     result = add_two(start)
     result = add_three(result)
 
-    assert_equal(result, 5)
+    _ = assert_equal(result, 5)
 
     var msg: String = "You've completed Quiz 1!"
     print_msg(msg)
 
 
 fn add_two(n: Int) raises -> Int:
-    assert_not_equal(n, -1)
+    _ = assert_not_equal(n, -1)
     return n + 2
 
 

@@ -22,10 +22,10 @@ from testing import assert_equal
 
 fn main() raises:
     var num: Int = 10
-    assert_equal(num, 10)
+    _ = assert_equal(num, 10)
 
     num = num * 2
-    check_if_twenty(num)
+    _ = check_if_twenty(num)
 
 
 fn check_if_twenty(num: Int):
